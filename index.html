@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-image: url("../images/darklaptop.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            width: 100%;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+        }
+
+        .bi-circle-fill {
+            color: blue;
+            font-size: 25px;
+        }
+
+        a {
+            text-decoration: none;
+            margin-left: 10px;
+            font-size: 21px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .middleDiv {
+            color: azure;
+            position: relative;
+            text-align: center;
+            margin-top: 150px;
+        }
+
+        .middleDiv p {
+            color: gray;
+        }
+
+        .info {
+            background-color: rgb(252, 248, 243);
+            height: 800px;
+        }
+
+        .infoWrapper {
+            padding: 150px;
+        }
+
+        .infoBottom {
+            margin-top: 50px;
+            height: 300px;
+            background-color: white;
+        }
+
+        .circleIcon {
+            color: blue;
+            font-size: 40px;
+        }
+
+        .cardInfo {
+            height: 300px;
+            position: relative;
+            margin-top: -150px;
+            border: none;
+            box-shadow: 3px 2px 8px #818080;
+        }
+
+        .cardWrapper {
+            padding: 0px 180px;
+        }
+
+        .community {
+            background-image: url(../images/office.jpg);
+            height: 400px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .communityWrapper {
+            padding: 110px 60px;
+            color: #FAEEE7;
+        }
+
+        .testimonial {
+            background-color: aliceblue;
+            height: 350px;
+        }
+
+        .testiCard {
+            margin: 15% 10%;
+            width: 400px;
+            box-shadow: 2px 2px 3px #818080;
+        }
+
+        .img {
+            width: 127%;
+            height: 115%;
+            margin-top: -15px;
+        }
+
+        .about {
+            height: 400px;
+        }
+
+        .aboutWrapper {
+            padding: 50px;
+        }
+
+        .bottomTitles {
+            text-align: center;
+            width: 80%;
+            box-shadow: 0 8px 6px -8px #818080;
+            padding: 10px;
+            color: #818080;
+        }
+
+        .list {
+            list-style: none;
+        }
+
+        .list li {
+            padding: 10px;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+
+        .icons {
+            display: flex;
+            margin-left: -30px;
+        }
+
+        .icons li {
+            padding: 10px;
+        }
+
+        li a {
+            color: white;
+            background-color: blue;
+            font-size: 30px;
+            border-radius: 100%;
+            padding: 5px;
+        }
+
+        li a:hover {
+            color: white;
+            background-color: black;
+        }
+
+        .social {
+            font-size: 30px;
+            border-radius: 40%;
+        }
+
+        .bottomPara {
+            color: #818080;
+            margin-top: 20px;
+        }
+
+        .footer {
+            background-color: #f1ecec;
+            height: 300px;
+        }
+
+        .footerWrapper {
+            padding: 100px;
+        }
+
+        .terms {
+            margin-left: -200px;
+        }
+
+        .trademark {
+            margin-left: 400px;
+        }
+
+        .btmHeading {
+            font-weight: bolder;
+        }
+
+        .btmPara {
+            font-weight: bolder;
+            color: #818080;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="menu">
+            <a href="#" class=".navbar-brand"><i class="bi bi-circle-fill"></i> Learnest</a>
+            <button class="btn btn-primary">LOG IN</button>
+        </div>
+        <div class="middleDiv">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellat mollitia non illo architecto?
+                Tempora!</p>
+            <button class="btn btn-primary">Sign up for Free</button>
+        </div>
+    </div>
+    <div class="info">
+        <div class="infoWrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>WHY CHOOSE LEARNEST?</p>
+                        <h1>Self-Paced Hybrid Courses on your demand</h1>
+                    </div>
+                    <div class="col">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore molestias blanditiis,
+                            cumque vero unde magnam iure suscipit aut vitae possimus deserunt tempore nostrum laboriosam
+                            saepe enim, delectus, ratione nam. Hic assumenda exercitationem, expedita minus fugit
+                            tempore nesciunt odit ratione ducimus deleniti quaerat earum pariatur nulla quos ullam et ea
+                            quo commodi! At incidunt vero minima consequatur sequi ab hic impedit mollitia
+                            necessitatibus fugit ducimus, quod similique nobis dolorem nam deserunt?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="infoBottom">
+            <div class="container cardWrapper">
+                <div class="row">
+                    <div class="col">
+                        <div class="card cardInfo" style="width: 18rem;">
+                            <div class="card-body">
+                                <p><i class="bi bi-record-circle-fill circleIcon"></i></p>
+                                <h5 class="card-title">Self-Paced Courses
+                                </h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card cardInfo" style="width: 18rem;">
+                            <div class="card-body">
+                                <p><i class="bi bi-record-circle-fill circleIcon"></i></p>
+                                <h5 class="card-title">Access to Top Resources</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card cardInfo" style="width: 18rem;">
+                            <div class="card-body">
+                                <p><i class="bi bi-record-circle-fill circleIcon"></i></p>
+                                <h5 class="card-title">300+ Unique Courses</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="community">
+        <div class="communityWrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>THERE'S IS MORE FOR YOU</p>
+                        <h3>Become part of growing community </h3>
+                    </div>
+                    <div class="col">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam veritatis, cum corrupti
+                            sunt quaerat at! Ullam fugiat soluta sapiente illo voluptates nobis, excepturi illum
+                            exercitationem? Enim cum corrupti sed nulla voluptas rem dignissimos voluptate,
+                            exercitationem tempore dolorem assumenda explicabo doloremque aperiam culpa? Fuga sequi
+                            voluptatibus saepe aut, vero maiores officia!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial">
+        <div class="testimonialWrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card testiCard">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h3>Lorem</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+                                                blanditiis ad tenetur distinctio, nihil provident.</p>
+                                        </div>
+                                        <div class="col">
+                                            <img src="../images/man.jpg" class="img" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card testiCard">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h3>Lorem</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+                                                blanditiis ad tenetur distinctio, nihil provident.</p>
+                                        </div>
+                                        <div class="col">
+                                            <img src="../images/man.jpg" class="img" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card testiCard">
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h3>Lorem</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+                                                blanditiis ad tenetur distinctio, nihil provident.</p>
+                                        </div>
+                                        <div class="col">
+                                            <img src="../images/man.jpg" class="img" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="aboutWrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a href="#" class=".navbar-brand"><i class="bi bi-circle-fill"></i> Learnest</a>
+                        <p class="bottomPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ratione
+                            autem, blanditiis
+                            cupiditate repudiandae eligendi cum. Reiciendis velit blanditiis, sed commodi, quaerat
+                            incidunt,
+                            laudantium architecto impedit veritatis fugiat iusto nemo.</p>
+                    </div>
+                    <div class="col">
+                        <p class="bottomTitles">COURSE CATEGORIES</p>
+                        <ul class="list">
+                            <li>Mobile Apps Development</li>
+                            <li>Programming Languages</li>
+                            <li>Databases</li>
+                            <li> Software Testing</li>
+                            <li>Software Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <p class="bottomTitles">FOR INSTITUTES</p>
+                        <ul class="list">
+                            <li>Institute Sign Up</li>
+                            <li>Institute Sign In</li>
+                            <li>Send a Request</li>
+                            <li>Contact for Queries</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <p class="bottomTitles">FOLLOW US EVERYWHERE</p>
+                        <ul class="list icons">
+                            <li><a href="#"><i class="bi bi-facebook social"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter social"></i></a></li>
+                            <li><a href="#"><i class="bi bi-linkedin social"></i></a></li>
+                            <li><a href="#"><i class="bi bi-instagram social"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerWrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col terms">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="btmHeading">Privacy Policy</p>
+                                </div>
+                                <div class="col">
+                                    <p class="btmHeading">Terms of use</p>
+                                </div>
+                                <div class="col">
+                                    <p class="btmHeading">Return and refunds</p>
+                                </div>
+                                <div>
+                                    <p class="btmPara">Copyright &copy; 2019 Learnest. All Rights Reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col trademark">
+                        <br>
+                        <p class="btmPara">Learnest <sup>TM</sup> is a registered trademark of ABC PVT LTD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
